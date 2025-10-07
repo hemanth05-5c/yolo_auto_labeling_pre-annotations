@@ -1,0 +1,35 @@
+# Virtual environment
+venv/
+.env/
+*.env
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Data & models
+data/
+models/
+results/
+logs/
+
+# Jupyter & notebooks
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Configs & credentials
+config/
+*.yaml
+*.yml
+*.json
+
+# IDEs & OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Documentation builds
+docs/_build/
